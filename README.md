@@ -94,7 +94,7 @@ Entities can also be decorated with icons/sprites using the $sprite parameter, f
 
 LAYOUT_WITH_LEGEND()
 
-Person(user, "Customer", "People that need products", $sprite="users")
+ProgramaStix(stix, "motorPontos", "Aplicação motor de pontos", $sprite="param")
 Container(spa, "SPA", "angular", "The main interface that the customer interacts with", $sprite="angular")
 Container(api, "API", "java", "Handles all business logic", $sprite="java")
 ContainerDb(db, "Database", "Microsoft SQL", "Holds product, order and invoice information", $sprite="msql_server")
